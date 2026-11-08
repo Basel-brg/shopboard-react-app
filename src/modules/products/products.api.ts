@@ -236,7 +236,7 @@ export function toProduct(api: ApiProduct): Product {
     sku: `SB-API-${api.id}`,
     name: api.title,
     category,
-    price: api.price_cents / 100, // تحويل 8900 سنت إلى 89$
+    price: api.price_cents / 100,
     originalPrice: Math.round((api.price_cents / 100) * 1.3),
     inStock: api.in_stock,
     stock: api.in_stock ? 10 : 0,

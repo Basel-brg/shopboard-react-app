@@ -43,7 +43,7 @@ export interface ProductFilterOptions {
   maxPrice: number;
   sortBy: SortOption;
 }
-// واجهة البيانات الخام القادمة من الـ API
+
 export interface ApiProduct {
   id: number;
   title: string;
